@@ -32,7 +32,16 @@ public class Main {
 		System.out.println("-----------------");
 		for (String item : lista) {
 			System.out.println("O item da lista e: " + item);
-
+		}
+		
+		lista.add("Item adicionado automaticamente 01");
+		lista.add("Item adicionado automaticamente 02");
+		lista.remove(1);
+		lista.remove(1);
+		
+		System.out.println("-----------------");
+		for (String item : lista) {
+			System.out.println("Nova lista e: " + item);
 		}
 	}
 
